@@ -1,7 +1,7 @@
 # https://adventofcode.com/2015/day/1
 from typing import Callable
 
-def run_tests(test_cases: list, func: Callable) -> None:
+def run_tests(test_cases: list[tuple[str, int]], func: Callable) -> None:
   for idx, (test_case, expected) in enumerate(test_cases):
     obtained = func(test_case)
     status = 'PASS' if obtained == expected else 'FAIL'
