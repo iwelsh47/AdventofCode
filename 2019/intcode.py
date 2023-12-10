@@ -15,9 +15,10 @@ def split_opcode(opcode: int) -> tuple[int, int]:
 
 def run_intcode(instructions: list[int],
                 input_values: list[int] = list(),
-                output_values: list[int] = list()) -> list[int]:
+                output_values: list[int] = list(),
+                start_address: int = 0) -> list[int]:
   state = instructions.copy()
-  address = 0
+  address = start_address
   while state[address] != 99:
     opcode, pmode = split_opcode(state[address])
     modeA, modeB, modeC = get_parameter_modes(pmode)
@@ -31,7 +32,10 @@ def run_intcode(instructions: list[int],
       state[addrC] = state[addrA] * state[addrB]
       address += 4
     elif opcode == 3: # Input opcode
-      state[addrA] = input_values[0]
+      # If there's no input to steal. Save state by returning it.
+      if not len(input_values):
+        return state + [address]
+      state[addrA] = input_values.pop(0)
       address += 2
     elif opcode == 4: # Output opcode
       output_values.append(state[addrA])
