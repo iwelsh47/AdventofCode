@@ -42,15 +42,17 @@ struct HappinessUnits {
     }
     
     func bestSeatingArrangment(includingSelf: Bool = false) -> (arrangment: [String], happiness: Int) {
-        var people = happinessEffects.keys.map({ $0 })
+        var people = happinessEffects.keys.map({ String($0) })
         if includingSelf { people.append("Myself") }
         var bestScore = Int.min
         var bestArrangment = people
-        for arrangment in people.permutations() {
-            let score = totalHappiness(of: arrangment)
+        for arrangment in people[1...].permutations() {
+            var fullArrangement = [people.first!]
+            fullArrangement.append(contentsOf: arrangment)
+            let score = totalHappiness(of: fullArrangement)
             if score > bestScore {
                 bestScore = score
-                bestArrangment = arrangment
+                bestArrangment = fullArrangement
             }
         }
         return (bestArrangment, bestScore)
