@@ -128,6 +128,8 @@
 		3BFC4F712B5239E000316886 /* Day10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC4F702B5239E000316886 /* Day10.swift */; };
 		3BFC4F742B5240D800316886 /* Day11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC4F732B5240D800316886 /* Day11.swift */; };
 		3BFC4F762B52768E00316886 /* Day12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC4F752B52768E00316886 /* Day12.swift */; };
+		3BFC4F7A2B5318EA00316886 /* Day13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC4F792B5318EA00316886 /* Day13.swift */; };
+		3BFC4F7D2B53219100316886 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 3BFC4F7C2B53219100316886 /* Algorithms */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -426,6 +428,8 @@
 		3BFC4F732B5240D800316886 /* Day11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day11.swift; sourceTree = "<group>"; };
 		3BFC4F752B52768E00316886 /* Day12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day12.swift; sourceTree = "<group>"; };
 		3BFC4F772B52771000316886 /* input12 */ = {isa = PBXFileReference; lastKnownFileType = text; path = input12; sourceTree = "<group>"; };
+		3BFC4F782B5318C400316886 /* input13 */ = {isa = PBXFileReference; lastKnownFileType = text; path = input13; sourceTree = "<group>"; };
+		3BFC4F792B5318EA00316886 /* Day13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day13.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -518,6 +522,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BFC4F7D2B53219100316886 /* Algorithms in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -622,6 +627,7 @@
 				3BFC4DB22B507B1C00316886 /* common */,
 				3BFC4DB42B507B1C00316886 /* data */,
 				3BFC4D9A2B4FF09800316886 /* Products */,
+				3BFC4F7B2B53219100316886 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -691,6 +697,7 @@
 				3BFC4F692B52063D00316886 /* input08 */,
 				3BFC4F6C2B522EA500316886 /* input09 */,
 				3BFC4F772B52771000316886 /* input12 */,
+				3BFC4F782B5318C400316886 /* input13 */,
 				3BFC4F532B51DA8C00316886 /* input23 */,
 			);
 			path = 2015;
@@ -720,6 +727,7 @@
 				3BFC4F702B5239E000316886 /* Day10.swift */,
 				3BFC4F732B5240D800316886 /* Day11.swift */,
 				3BFC4F752B52768E00316886 /* Day12.swift */,
+				3BFC4F792B5318EA00316886 /* Day13.swift */,
 				3BFC4DE22B50EFEB00316886 /* Day21.swift */,
 				3BFC4DE42B51244C00316886 /* Day22.swift */,
 				3BFC4F502B51DA2200316886 /* Day23.swift */,
@@ -741,6 +749,13 @@
 				3BFC4F562B51E8E900316886 /* Day01.swift */,
 			);
 			path = 2016;
+			sourceTree = "<group>";
+		};
+		3BFC4F7B2B53219100316886 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -966,6 +981,9 @@
 			dependencies = (
 			);
 			name = Day13_2015;
+			packageProductDependencies = (
+				3BFC4F7C2B53219100316886 /* Algorithms */,
+			);
 			productName = Day01_2015;
 			productReference = 3BFC4EAD2B512A8900316886 /* Day13_2015 */;
 			productType = "com.apple.product-type.tool";
@@ -1404,6 +1422,7 @@
 				3BFC4EA32B512A8900316886 /* testhandling.swift in Sources */,
 				3BFC4EA42B512A8900316886 /* filehandling.swift in Sources */,
 				3BFC4EA62B512A8900316886 /* day.swift in Sources */,
+				3BFC4F7A2B5318EA00316886 /* Day13.swift in Sources */,
 				3BFC4EA72B512A8900316886 /* extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2509,6 +2528,11 @@
 
 /* Begin XCSwiftPackageProductDependency section */
 		3BFC4F6E2B52342100316886 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3BFC4F6D2B52342100316886 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+		3BFC4F7C2B53219100316886 /* Algorithms */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 3BFC4F6D2B52342100316886 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
 			productName = Algorithms;
