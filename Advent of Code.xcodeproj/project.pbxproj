@@ -122,6 +122,7 @@
 		3BFC4F5E2B51E93F00316886 /* day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC4DD62B50891500316886 /* day.swift */; };
 		3BFC4F5F2B51E93F00316886 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC4DB32B507B1C00316886 /* extensions.swift */; };
 		3BFC4F662B51E95000316886 /* Day01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC4F562B51E8E900316886 /* Day01.swift */; };
+		3BFC4F682B5205F400316886 /* Day08.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC4F672B5205F400316886 /* Day08.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -412,6 +413,8 @@
 		3BFC4F562B51E8E900316886 /* Day01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day01.swift; sourceTree = "<group>"; };
 		3BFC4F582B51E90E00316886 /* input01 */ = {isa = PBXFileReference; lastKnownFileType = text; path = input01; sourceTree = "<group>"; };
 		3BFC4F652B51E93F00316886 /* Day01_2016 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Day01_2016; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BFC4F672B5205F400316886 /* Day08.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day08.swift; sourceTree = "<group>"; };
+		3BFC4F692B52063D00316886 /* input08 */ = {isa = PBXFileReference; lastKnownFileType = text; path = input08; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -673,6 +676,7 @@
 				3BFC4DD42B50831800316886 /* input05 */,
 				3BFC4DDC2B50C38F00316886 /* input06 */,
 				3BFC4DE12B50E00A00316886 /* input07 */,
+				3BFC4F692B52063D00316886 /* input08 */,
 				3BFC4F532B51DA8C00316886 /* input23 */,
 			);
 			path = 2015;
@@ -697,6 +701,7 @@
 				3BFC4DD22B507FF000316886 /* Day05.swift */,
 				3BFC4DD92B50C25400316886 /* Day06.swift */,
 				3BFC4DDE2B50D8BF00316886 /* Day07.swift */,
+				3BFC4F672B5205F400316886 /* Day08.swift */,
 				3BFC4DE22B50EFEB00316886 /* Day21.swift */,
 				3BFC4DE42B51244C00316886 /* Day22.swift */,
 				3BFC4F502B51DA2200316886 /* Day23.swift */,
@@ -1315,6 +1320,7 @@
 				3BFC4E622B512A8600316886 /* testhandling.swift in Sources */,
 				3BFC4E632B512A8600316886 /* filehandling.swift in Sources */,
 				3BFC4E652B512A8600316886 /* day.swift in Sources */,
+				3BFC4F682B5205F400316886 /* Day08.swift in Sources */,
 				3BFC4E662B512A8600316886 /* extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
