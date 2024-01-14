@@ -130,6 +130,14 @@
 		3BFC4F762B52768E00316886 /* Day12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC4F752B52768E00316886 /* Day12.swift */; };
 		3BFC4F7A2B5318EA00316886 /* Day13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC4F792B5318EA00316886 /* Day13.swift */; };
 		3BFC4F7D2B53219100316886 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 3BFC4F7C2B53219100316886 /* Algorithms */; };
+		3BFC4F802B5328D700316886 /* Day14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC4F7F2B5328D700316886 /* Day14.swift */; };
+		3BFC4F822B53318C00316886 /* Day15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC4F812B53318C00316886 /* Day15.swift */; };
+		3BFC4F842B53336300316886 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 3BFC4F832B53336300316886 /* Algorithms */; };
+		3BFC4F862B53586D00316886 /* Day16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC4F852B53586D00316886 /* Day16.swift */; };
+		3BFC4F892B5366B400316886 /* Day17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC4F882B5366B400316886 /* Day17.swift */; };
+		3BFC4F8B2B536A3D00316886 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 3BFC4F8A2B536A3D00316886 /* Algorithms */; };
+		3BFC4F8F2B53970B00316886 /* Day18.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC4F8E2B53970B00316886 /* Day18.swift */; };
+		3BFC4F912B53979000316886 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC4F8C2B5395AB00316886 /* Array2D.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -430,6 +438,15 @@
 		3BFC4F772B52771000316886 /* input12 */ = {isa = PBXFileReference; lastKnownFileType = text; path = input12; sourceTree = "<group>"; };
 		3BFC4F782B5318C400316886 /* input13 */ = {isa = PBXFileReference; lastKnownFileType = text; path = input13; sourceTree = "<group>"; };
 		3BFC4F792B5318EA00316886 /* Day13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day13.swift; sourceTree = "<group>"; };
+		3BFC4F7E2B5328C200316886 /* input14 */ = {isa = PBXFileReference; lastKnownFileType = text; path = input14; sourceTree = "<group>"; };
+		3BFC4F7F2B5328D700316886 /* Day14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day14.swift; sourceTree = "<group>"; };
+		3BFC4F812B53318C00316886 /* Day15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day15.swift; sourceTree = "<group>"; };
+		3BFC4F852B53586D00316886 /* Day16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day16.swift; sourceTree = "<group>"; };
+		3BFC4F872B53593E00316886 /* input16 */ = {isa = PBXFileReference; lastKnownFileType = text; path = input16; sourceTree = "<group>"; };
+		3BFC4F882B5366B400316886 /* Day17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day17.swift; sourceTree = "<group>"; };
+		3BFC4F8C2B5395AB00316886 /* Array2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
+		3BFC4F8E2B53970B00316886 /* Day18.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day18.swift; sourceTree = "<group>"; };
+		3BFC4F902B53972E00316886 /* input18 */ = {isa = PBXFileReference; lastKnownFileType = text; path = input18; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -537,6 +554,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BFC4F842B53336300316886 /* Algorithms in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -551,6 +569,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BFC4F8B2B536A3D00316886 /* Algorithms in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -671,6 +690,7 @@
 				3BFC4DC42B507B7800316886 /* filehandling.swift */,
 				3BFC4DCA2B507E6D00316886 /* testhandling.swift */,
 				3BFC4DD62B50891500316886 /* day.swift */,
+				3BFC4F8C2B5395AB00316886 /* Array2D.swift */,
 			);
 			path = common;
 			sourceTree = "<group>";
@@ -698,6 +718,9 @@
 				3BFC4F6C2B522EA500316886 /* input09 */,
 				3BFC4F772B52771000316886 /* input12 */,
 				3BFC4F782B5318C400316886 /* input13 */,
+				3BFC4F7E2B5328C200316886 /* input14 */,
+				3BFC4F872B53593E00316886 /* input16 */,
+				3BFC4F902B53972E00316886 /* input18 */,
 				3BFC4F532B51DA8C00316886 /* input23 */,
 			);
 			path = 2015;
@@ -728,6 +751,11 @@
 				3BFC4F732B5240D800316886 /* Day11.swift */,
 				3BFC4F752B52768E00316886 /* Day12.swift */,
 				3BFC4F792B5318EA00316886 /* Day13.swift */,
+				3BFC4F7F2B5328D700316886 /* Day14.swift */,
+				3BFC4F812B53318C00316886 /* Day15.swift */,
+				3BFC4F852B53586D00316886 /* Day16.swift */,
+				3BFC4F882B5366B400316886 /* Day17.swift */,
+				3BFC4F8E2B53970B00316886 /* Day18.swift */,
 				3BFC4DE22B50EFEB00316886 /* Day21.swift */,
 				3BFC4DE42B51244C00316886 /* Day22.swift */,
 				3BFC4F502B51DA2200316886 /* Day23.swift */,
@@ -1018,6 +1046,9 @@
 			dependencies = (
 			);
 			name = Day15_2015;
+			packageProductDependencies = (
+				3BFC4F832B53336300316886 /* Algorithms */,
+			);
 			productName = Day01_2015;
 			productReference = 3BFC4EC72B512A8A00316886 /* Day15_2015 */;
 			productType = "com.apple.product-type.tool";
@@ -1052,6 +1083,9 @@
 			dependencies = (
 			);
 			name = Day17_2015;
+			packageProductDependencies = (
+				3BFC4F8A2B536A3D00316886 /* Algorithms */,
+			);
 			productName = Day01_2015;
 			productReference = 3BFC4EE12B512A8B00316886 /* Day17_2015 */;
 			productType = "com.apple.product-type.tool";
@@ -1435,6 +1469,7 @@
 				3BFC4EB12B512A8900316886 /* filehandling.swift in Sources */,
 				3BFC4EB32B512A8900316886 /* day.swift in Sources */,
 				3BFC4EB42B512A8900316886 /* extensions.swift in Sources */,
+				3BFC4F802B5328D700316886 /* Day14.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1442,6 +1477,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BFC4F822B53318C00316886 /* Day15.swift in Sources */,
 				3BFC4EBD2B512A8A00316886 /* testhandling.swift in Sources */,
 				3BFC4EBE2B512A8A00316886 /* filehandling.swift in Sources */,
 				3BFC4EC02B512A8A00316886 /* day.swift in Sources */,
@@ -1454,6 +1490,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BFC4ECA2B512A8A00316886 /* testhandling.swift in Sources */,
+				3BFC4F862B53586D00316886 /* Day16.swift in Sources */,
 				3BFC4ECB2B512A8A00316886 /* filehandling.swift in Sources */,
 				3BFC4ECD2B512A8A00316886 /* day.swift in Sources */,
 				3BFC4ECE2B512A8A00316886 /* extensions.swift in Sources */,
@@ -1465,6 +1502,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BFC4ED72B512A8B00316886 /* testhandling.swift in Sources */,
+				3BFC4F892B5366B400316886 /* Day17.swift in Sources */,
 				3BFC4ED82B512A8B00316886 /* filehandling.swift in Sources */,
 				3BFC4EDA2B512A8B00316886 /* day.swift in Sources */,
 				3BFC4EDB2B512A8B00316886 /* extensions.swift in Sources */,
@@ -1476,7 +1514,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BFC4EE42B512A8B00316886 /* testhandling.swift in Sources */,
+				3BFC4F912B53979000316886 /* Array2D.swift in Sources */,
 				3BFC4EE52B512A8B00316886 /* filehandling.swift in Sources */,
+				3BFC4F8F2B53970B00316886 /* Day18.swift in Sources */,
 				3BFC4EE72B512A8B00316886 /* day.swift in Sources */,
 				3BFC4EE82B512A8B00316886 /* extensions.swift in Sources */,
 			);
@@ -2533,6 +2573,16 @@
 			productName = Algorithms;
 		};
 		3BFC4F7C2B53219100316886 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3BFC4F6D2B52342100316886 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+		3BFC4F832B53336300316886 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3BFC4F6D2B52342100316886 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+		3BFC4F8A2B536A3D00316886 /* Algorithms */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 3BFC4F6D2B52342100316886 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
 			productName = Algorithms;
