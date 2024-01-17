@@ -28,7 +28,7 @@ struct Player {
     
     mutating func tick() {
         var newEffects = [Effect]()
-        var oldEffects = effects
+        let oldEffects = effects
         for idx in oldEffects.indices {
             if let newEffect = effects[idx].tick(on: &self) { newEffects.append(newEffect) }
         }
@@ -282,8 +282,8 @@ enum PlayerType { case player, boss }
     func sequenceManaCost(sequence: [Spell]) -> Int { return sequence.reduce(0, { $0 + $1.manaCost }) }
     
     func runGame(hardMode: Bool = false) -> (Int, [Spell]) {
-        var boss = Player(name: .boss, health: 58, armour: 0, mana: 0)
-        var player = Player(name: .player, health: 50, armour: 0, mana: 500)
+        let boss = Player(name: .boss, health: 58, armour: 0, mana: 0)
+        let player = Player(name: .player, health: 50, armour: 0, mana: 500)
         
         var sequences = [[Spell]]()
         for spell in validSpells(for: player, against: boss) {
@@ -294,7 +294,7 @@ enum PlayerType { case player, boss }
         var bestCost = Int.max
         
         while !sequences.isEmpty {
-            var sequence = sequences.popLast()!
+            let sequence = sequences.popLast()!
             let seqCost = sequenceManaCost(sequence: sequence)
             if seqCost > bestCost { continue }
             

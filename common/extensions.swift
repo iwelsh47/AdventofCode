@@ -9,6 +9,23 @@ import Foundation
 
 extension String {
     func trimmed() -> String { self.trimmingCharacters(in: .whitespacesAndNewlines) }
+    
+    func countInstances(of stringToFind: String) -> Int {
+        assert(!stringToFind.isEmpty)
+        var count = 0
+        var searchRange: Range<String.Index>?
+        while let foundRange = range(of: stringToFind, options: [], range: searchRange) {
+            count += 1
+            searchRange = Range(uncheckedBounds: (lower: foundRange.upperBound, upper: endIndex))
+        }
+        return count
+    }
+    
+    
+}
+
+extension Collection where Element: AdditiveArithmetic {
+    func sum() -> Element { return reduce(Element.zero, { $0 + $1 }) }
 }
 
 extension Array {
