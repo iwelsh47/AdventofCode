@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3BFC4EC82B512A8A00316886"
-               BuildableName = "Day16_2015"
-               BlueprintName = "Day16_2015"
+               BlueprintIdentifier = "3BFC4FC72B57BC5700316886"
+               BuildableName = "Day05_2016"
+               BlueprintName = "Day05_2016"
                ReferencedContainer = "container:Advent of Code.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -34,8 +34,7 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
-      useCustomWorkingDirectory = "YES"
-      customWorkingDirectory = "/Users/ares/Documents/GitHub/AdventOfCode"
+      useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
@@ -45,9 +44,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3BFC4EC82B512A8A00316886"
-            BuildableName = "Day16_2015"
-            BlueprintName = "Day16_2015"
+            BlueprintIdentifier = "3BFC4FC72B57BC5700316886"
+            BuildableName = "Day05_2016"
+            BlueprintName = "Day05_2016"
             ReferencedContainer = "container:Advent of Code.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -62,9 +61,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3BFC4EC82B512A8A00316886"
-            BuildableName = "Day16_2015"
-            BlueprintName = "Day16_2015"
+            BlueprintIdentifier = "3BFC4FC72B57BC5700316886"
+            BuildableName = "Day05_2016"
+            BlueprintName = "Day05_2016"
             ReferencedContainer = "container:Advent of Code.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
