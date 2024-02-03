@@ -6,9 +6,18 @@
 //
 
 import Foundation
+import CryptoKit
 
 extension String {
     func trimmed() -> String { self.trimmingCharacters(in: .whitespacesAndNewlines) }
+    
+    func md5() -> String {
+        if let data = self.data(using: .utf8) {
+            let hash = Insecure.MD5.hash(data: data)
+            return hash.map { String(format: "%02hhx", $0) }.joined()
+        }
+        return ""
+    }
     
     func countInstances(of stringToFind: String) -> Int {
         assert(!stringToFind.isEmpty)
